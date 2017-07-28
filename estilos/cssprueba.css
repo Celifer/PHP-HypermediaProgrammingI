@@ -1,0 +1,104 @@
+
+header {
+	background-color: black;
+	color: white;
+	font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+	height: auto;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+header span{
+	color: red;
+}
+
+
+.expl{
+ 	font-weight: bold;
+ }
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+header a{
+	color: white;
+}
+header a:hover, header a:focus{
+	color: silver;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul.cabder {
+	width: 30%;
+	float: left;
+}
+
+.cabder li {
+	display: inline-block;
+	margin-right: 20%;
+}
+
+
+ul.login {
+	padding: 0;
+	float: right;
+	margin-right: 5%;
+}
+
+.login li{
+	padding-right: 3%;
+	display: inline-block;
+	float: left;
+	width: 30%;
+}
+
+ul.loginid {
+	padding: 0;
+	float: right;
+	margin-right: 3%;
+	font-weight: bold;
+}
+
+.loginid li{
+	padding-top: 5%;
+}
+
+.fnl a{
+	font-weight: bold;
+}
+.fnl input:hover{
+	background:white;
+	border-color: dodgerblue;
+	color: dodgerblue;
+}
+
+.fnl input{
+	border: 1px solid black;
+	border-radius: 5px;
+	background: dodgerblue;
+	padding: 3%;
+	text-decoration: none;
+	font-family: helvetica;
+	font-weight: bold;
+	color: white;
+	font-size: 100%;
+	margin-left: -2%;
+	margin-top: -2%;
+	margin-bottom: 2%;
+}
+
+#usu, #usukey{
+	width: 100%;
+}
+
+
+footer{
+	color: white;
+	background: black;
+	text-align: center;
+}

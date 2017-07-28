@@ -1,0 +1,68 @@
+===Base de datos pibd
+
+== Estructura de tabla para la tabla albumes
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**IdAlbum**//|int(11)|No|
+|Titulo|varchar(100)|No|
+|Descripcion|text|No|
+|Fecha|date|No|
+|Pais|int(11)|No|
+|Usuario|int(11)|No|
+== Estructura de tabla para la tabla fotos
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**IdFoto**//|int(11)|No|
+|Titulo|varchar(100)|No|
+|Descripcion|text|No|
+|Fecha|date|No|
+|Pais|int(11)|No|
+|Album|int(11)|No|
+|Fichero|text|No|
+|FRegistro|timestamp|No|CURRENT_TIMESTAMP
+== Estructura de tabla para la tabla paises
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**IdPais**//|int(11)|No|
+|**CodPais**|varchar(3)|No|
+|NomPais|varchar(100)|No|
+== Estructura de tabla para la tabla solicitudes
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**IdSolicitud**//|int(11)|No|
+|Album|int(11)|No|
+|Nombre|varchar(200)|No|
+|Titulo|varchar(200)|No|
+|Descripcion|text|No|
+|Email|varchar(200)|No|
+|Direccion|varchar(200)|No|
+|Color|varchar(20)|No|
+|Copias|int(11)|No|
+|Resolucion|int(11)|No|
+|Fecha|date|No|
+|IColor|tinyint(1)|No|
+|FRegistro|timestamp|No|CURRENT_TIMESTAMP
+|Coste|double|No|
+== Estructura de tabla para la tabla usuarios
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**IdUsuario**//|int(11)|No|
+|**NomUsuario**|varchar(15)|No|
+|Clave|varchar(15)|No|
+|Email|varchar(100)|No|
+|Sexo|tinyint(4)|No|
+|FNacimiento|date|No|
+|Ciudad|varchar(100)|No|
+|Pais|int(11)|No|
+|Foto|varchar(250)|No|
+|FRegistro|timestamp|No|CURRENT_TIMESTAMP
